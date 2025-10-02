@@ -36,7 +36,7 @@ export const useGameStore = create<Store>((set, get) => {
     // fetch card if live
     if (state.status === 'live' && state.round?.cardId) {
       try {
-        const base = import.meta.env.VITE_SERVER_URL ?? 'http://localhost:5174'
+        const base = (import.meta.env.VITE_SERVER_URL as string) || window.location.origin
         const res = await fetch(`${base}/cards/${state.round.cardId}`)
         if (res.ok) {
           const card = (await res.json()) as Card
