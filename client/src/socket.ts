@@ -1,4 +1,5 @@
 import { io } from 'socket.io-client'
-export const socket = io(import.meta.env.VITE_SERVER_URL ?? 'http://localhost:5174', { autoConnect: true })
+const baseUrl = (import.meta.env.VITE_SERVER_URL as string) || window.location.origin
+export const socket = io(baseUrl, { autoConnect: true })
 
 
