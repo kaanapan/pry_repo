@@ -29,6 +29,15 @@ export function createServer() {
     }
   })
 
+  // Serve client build if present (single-URL deploy)
+  const clientDist = path.join(process.cwd(), 'client', 'dist')
+  app.use(express.static(clientDist))
+  app.get('*', (_req, res) => {
+    const indexPath = path.join(clientDist, 'index.html')
+    if (fs.existsSync(indexPath)) return res.sendFile(indexPath)
+    return res.status(404).send('Not Found')
+  })
+
   createGameServer(io)
 
   const PORT = process.env.PORT ? Number(process.env.PORT) : 5174
