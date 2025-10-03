@@ -5,11 +5,11 @@
   "type": "module",
   "scripts": {
     "dev:server": "tsx watch server/index.ts",
-    "dev:client": "sh -c 'cd client && vite --open --host'",
+    "dev:client": "cd client && vite --open --host",
     "dev": "concurrently \"npm run dev:server\" \"npm run dev:client\"",
-    "build:client": "sh -c 'cd client && vite build'",
+    "build:client": "cd client && vite build",
     "build": "npm run build:client",
-    "start": "node --env-file=.env -e \"import('./server/index.ts')\""
+    "start": "tsx server/index.ts"
   },
   "dependencies": {
     "cors": "^2.8.5",
