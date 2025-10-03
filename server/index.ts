@@ -49,9 +49,7 @@ export function createServer() {
   return { app, server, io }
 }
 
-// Auto start if run directly
-if (import.meta.url === `file://${process.argv[1]}`) {
   createServer()
-}
+
 
 

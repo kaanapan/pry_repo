@@ -4,7 +4,7 @@ import { socket } from './socket'
 type Team = 'A' | 'B'
 type RoomStatus = 'lobby' | 'live' | 'ended'
 interface Card { id: string; target: string; taboos: string[] }
-interface Member { id: string; name: string; team: Team | null; isReady: boolean }
+interface Member { id: string; name: string; team: Team | null; isReady: boolean, isLeader?: boolean; }
 interface RoomState {
   code: string
   status: RoomStatus

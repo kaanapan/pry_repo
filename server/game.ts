@@ -6,7 +6,7 @@ type Team = 'A' | 'B'
 type RoomStatus = 'lobby' | 'live' | 'ended'
 
 interface Card { id: string; target: string; taboos: string[] }
-interface Member { id: string; name: string; team: Team | null; isReady: boolean }
+interface Member { id: string; name: string; team: Team | null; isReady: boolean; isLeader?: boolean }
 interface RoundState {
   clueGiverId: string
   guesserId: string
@@ -166,12 +166,12 @@ export function createGameServer(io: Server) {
       rooms.set(code, room)
       setupDeckForRoom(code)
       socket.emit('toast', { kind: 'info', text: `Room ${code} created` })
-      // auto-join owner
-      joinRoom(io, socket, code, name)
+      // auto-join owner as leader
+      joinRoom(io, socket, code, name, true)
     })
 
     socket.on('room:join', ({ code, name }: { code: string; name: string }) => {
-      joinRoom(io, socket, code.toUpperCase(), name)
+      joinRoom(io, socket, code.toUpperCase(), name, false)
     })
 
     socket.on('room:setTeam', ({ team }: { team: Team }) => {
@@ -198,6 +198,12 @@ export function createGameServer(io: Server) {
       if (!joinedCode) return
       const room = getRoom(joinedCode)
       if (!room) return
+      // Only leader can start
+      const leader = room.members.find(m => m.isLeader)
+      if (!leader || leader.id !== socket.id) {
+        socket.emit('toast', { kind: 'warn', text: 'Only the lobby leader can start the game.' })
+        return
+      }
       // basic validation: at least one per team
       if (teamMembers(room, 'A').length === 0 || teamMembers(room, 'B').length === 0) {
         socket.emit('toast', { kind: 'warn', text: 'Need at least one member per team' })
@@ -248,7 +254,7 @@ export function createGameServer(io: Server) {
       emitState(io, joinedCode)
     })
 
-    function joinRoom(io: Server, socket: Socket, code: string, name: string) {
+    function joinRoom(io: Server, socket: Socket, code: string, name: string, isLeader = false) {
       const room = getRoom(code)
       if (!room) {
         socket.emit('toast', { kind: 'error', text: 'Room not found' })
@@ -258,7 +264,7 @@ export function createGameServer(io: Server) {
       joinedCode = code
       socket.join(code)
       if (!room.members.find(m => m.id === socket.id)) {
-        room.members.push({ id: socket.id, name, team: null, isReady: false })
+        room.members.push({ id: socket.id, name, team: null, isReady: isLeader ? true : false, isLeader })
       }
       emitState(io, code)
     }
