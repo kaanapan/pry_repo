@@ -61,12 +61,18 @@ export function Lobby() {
             </Button>
           </Box>
           <Box width="100%" display="flex" justifyContent="center" alignItems="center" gap={10} mb={1}>
-            <Typography variant="h5" fontWeight={700} color="primary" textAlign="center" sx={{ flex: 1 }}>
-              Mavi Takım
-            </Typography>
-            <Typography variant="h5" fontWeight={700} color="secondary" textAlign="center" sx={{ flex: 1 }}>
-              Kırmızı Takım
-            </Typography>
+            <Box display="flex" alignItems="center" gap={1} sx={{ flex: 1, justifyContent: 'center' }}>
+              <Typography variant="h5" fontWeight={700} color="primary" textAlign="center">
+                Mavi Takım
+              </Typography>
+              <Chip label={state?.scores?.A ?? 0} color="primary" size="medium" sx={{ fontWeight: 700, fontSize: 18, height: 32, ml: 1 }} />
+            </Box>
+            <Box display="flex" alignItems="center" gap={1} sx={{ flex: 1, justifyContent: 'center' }}>
+              <Typography variant="h5" fontWeight={700} color="secondary" textAlign="center">
+                Kırmızı Takım
+              </Typography>
+              <Chip label={state?.scores?.B ?? 0} color="secondary" size="medium" sx={{ fontWeight: 700, fontSize: 18, height: 32, ml: 1 }} />
+            </Box>
           </Box>
           <Box width="100%" display="flex" justifyContent="center" alignItems="flex-start" gap={4}>
             <Box flex={1} display="flex" justifyContent="center">
