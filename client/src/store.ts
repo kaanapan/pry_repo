@@ -35,18 +35,31 @@ export const useGameStore = create<Store>((set, get) => {
     set({ state })
     // fetch card if live
     if (state.status === 'live' && state.round?.cardId) {
-      try {
-        const base = (import.meta.env.VITE_SERVER_URL as string) || window.location.origin
-        const res = await fetch(`${base}/cards/${state.round.cardId}`)
-        if (res.ok) {
-          const card = (await res.json()) as Card
-          set({ currentCard: card })
+      const meId = get().meId;
+      if (state.round.guesserId === meId) {
+        // Guesser: maskeli kart
+        set({
+          currentCard: {
+            id: state.round.cardId,
+            target: '*****',
+            taboos: Array(5).fill('*****'),
+          },
+        });
+      } else {
+        // Diğer herkes: gerçek kartı fetch et
+        try {
+          const base = (import.meta.env.VITE_SERVER_URL as string) || window.location.origin;
+          const res = await fetch(`${base}/cards/${state.round.cardId}`);
+          if (res.ok) {
+            const card = (await res.json()) as Card;
+            set({ currentCard: card });
+          }
+        } catch {
+          // ignore
         }
-      } catch {
-        // ignore
       }
     } else {
-      set({ currentCard: null })
+      set({ currentCard: null });
     }
   })
   socket.on('round:tick', ({ remainingMs }: { remainingMs: number }) => {
