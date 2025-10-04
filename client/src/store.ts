@@ -81,12 +81,10 @@ export const useGameStore = create<Store>((set, get) => {
     setRoomCode: (code: string) => set({ roomCode: code }),
     setPlayerName: (n: string) => set({ playerName: n }),
     rematch: () => {
-      // simple: reset scores by creating new room state
-      const st = get().state
-      if (!st) return
-      // local-only helper to re-enter lobby
-      const reset = { ...st, status: 'lobby' as RoomStatus, scores: { A: 0, B: 0 }, round: undefined }
-      set({ state: reset, remainingMs: 60000 })
+      // Backend'e rematch isteği gönder
+      const st = get().state;
+      if (!st) return;
+      socket.emit('room:rematch');
     }
   }
 })

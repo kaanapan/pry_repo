@@ -155,6 +155,20 @@ export function createGameServer(io: Server) {
     let joinedCode: string | null = null
     let memberName: string = ''
 
+    // Rematch: reset scores and state, emit to all
+    socket.on('room:rematch', () => {
+      if (!joinedCode) return;
+      const room = getRoom(joinedCode);
+      if (!room) return;
+      room.scores = { A: 0, B: 0 };
+      room.status = 'lobby';
+      room.round = undefined;
+      // Optionally reset roleIndex and deck for a fresh start
+      room.roleIndex = { A: Math.floor(Math.random() * 2), B: Math.floor(Math.random() * 2) };
+      setupDeckForRoom(room.code);
+      emitState(io, joinedCode!);
+    });
+
     socket.on('room:create', ({ name, scoreLimit }: { name: string, scoreLimit?: number }) => {
       const code = shortId()
       const room: RoomState = {
