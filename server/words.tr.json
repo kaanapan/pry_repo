@@ -1,0 +1,2796 @@
+[
+  {
+    "id": "1",
+    "target": "ELMA",
+    "taboos": [
+      "Meyve",
+      "Kırmızı",
+      "Ağaç",
+      "Tatlı",
+      "Vitamin"
+    ]
+  },
+  {
+    "id": "2",
+    "target": "ARABA",
+    "taboos": [
+      "Tekerlek",
+      "Motor",
+      "Yol",
+      "Sürücü",
+      "Taşıt"
+    ]
+  },
+  {
+    "id": "3",
+    "target": "BİLGİSAYAR",
+    "taboos": [
+      "Ekran",
+      "Klavye",
+      "Fare",
+      "İnternet",
+      "Program"
+    ]
+  },
+  {
+    "id": "4",
+    "target": "KİTAP",
+    "taboos": [
+      "Sayfa",
+      "Yazar",
+      "Okumak",
+      "Roman",
+      "Kütüphane"
+    ]
+  },
+  {
+    "id": "5",
+    "target": "DENİZ",
+    "taboos": [
+      "Su",
+      "Mavi",
+      "Kum",
+      "Yüzmek",
+      "Tuzlu"
+    ]
+  },
+  {
+    "id": "6",
+    "target": "UÇAK",
+    "taboos": [
+      "Havaalanı",
+      "Pilot",
+      "Kanat",
+      "Yolcu",
+      "Uçmak"
+    ]
+  },
+  {
+    "id": "7",
+    "target": "KÖPEK",
+    "taboos": [
+      "Havlamak",
+      "Evcil",
+      "Kuyruk",
+      "Sadık",
+      "Yürüyüş"
+    ]
+  },
+  {
+    "id": "8",
+    "target": "KEDİ",
+    "taboos": [
+      "Miyav",
+      "Evcil",
+      "Tüy",
+      "Patı",
+      "Uyumak"
+    ]
+  },
+  {
+    "id": "9",
+    "target": "OKUL",
+    "taboos": [
+      "Öğrenci",
+      "Öğretmen",
+      "Ders",
+      "Sınıf",
+      "Tahta"
+    ]
+  },
+  {
+    "id": "10",
+    "target": "MASA",
+    "taboos": [
+      "Sandalye",
+      "Ahşap",
+      "Çalışmak",
+      "Yemek",
+      "Dört"
+    ]
+  },
+  {
+    "id": "11",
+    "target": "TELEFON",
+    "taboos": [
+      "Aramak",
+      "Mesaj",
+      "Numara",
+      "Cep",
+      "Konuşmak"
+    ]
+  },
+  {
+    "id": "12",
+    "target": "BİSİKLET",
+    "taboos": [
+      "Pedal",
+      "Tekerlek",
+      "Sürmek",
+      "Kask",
+      "Fren"
+    ]
+  },
+  {
+    "id": "13",
+    "target": "ÇİÇEK",
+    "taboos": [
+      "Renkli",
+      "Koklamak",
+      "Bahçe",
+      "Yaprak",
+      "Vazo"
+    ]
+  },
+  {
+    "id": "14",
+    "target": "GÜNEŞ",
+    "taboos": [
+      "Sıcak",
+      "Sarı",
+      "Yaz",
+      "Işık",
+      "Gökyüzü"
+    ]
+  },
+  {
+    "id": "15",
+    "target": "AY",
+    "taboos": [
+      "Gece",
+      "Gökyüzü",
+      "Yıldız",
+      "Dünya",
+      "Parlak"
+    ]
+  },
+  {
+    "id": "16",
+    "target": "YAĞMUR",
+    "taboos": [
+      "Islanmak",
+      "Bulut",
+      "Şemsiye",
+      "Damlalar",
+      "Gökkuşağı"
+    ]
+  },
+  {
+    "id": "17",
+    "target": "KAR",
+    "taboos": [
+      "Beyaz",
+      "Soğuk",
+      "Kış",
+      "Düşmek",
+      "Çocuk"
+    ]
+  },
+  {
+    "id": "18",
+    "target": "EKMEK",
+    "taboos": [
+      "Fırın",
+      "Dilimi",
+      "Tost",
+      "Un",
+      "Kahvaltı"
+    ]
+  },
+  {
+    "id": "19",
+    "target": "BALIK",
+    "taboos": [
+      "Yüzmek",
+      "Deniz",
+      "Kılçık",
+      "Tava",
+      "Ağ"
+    ]
+  },
+  {
+    "id": "20",
+    "target": "OTOBÜS",
+    "taboos": [
+      "Durak",
+      "Şoför",
+      "Yolcu",
+      "Bilet",
+      "Toplu"
+    ]
+  },
+  {
+    "id": "21",
+    "target": "DAĞ",
+    "taboos": [
+      "Yüksek",
+      "Tırmanmak",
+      "Tepe",
+      "Kar",
+      "Doğa"
+    ]
+  },
+  {
+    "id": "22",
+    "target": "ŞEMSİYE",
+    "taboos": [
+      "Yağmur",
+      "Açmak",
+      "Kapamak",
+      "Sap",
+      "Rüzgar"
+    ]
+  },
+  {
+    "id": "23",
+    "target": "FUTBOL",
+    "taboos": [
+      "Top",
+      "Gol",
+      "Saha",
+      "Takım",
+      "Hakem"
+    ]
+  },
+  {
+    "id": "24",
+    "target": "DONDURMA",
+    "taboos": [
+      "Soğuk",
+      "Tatlı",
+      "Külah",
+      "Yaz",
+      "Çikolata"
+    ]
+  },
+  {
+    "id": "25",
+    "target": "KAMERA",
+    "taboos": [
+      "Fotoğraf",
+      "Çekmek",
+      "Lens",
+      "Video",
+      "Flaş"
+    ]
+  },
+  {
+    "id": "26",
+    "target": "RADYO",
+    "taboos": [
+      "Dinlemek",
+      "Frekans",
+      "Müzik",
+      "Ses",
+      "Cihaz"
+    ]
+  },
+  {
+    "id": "27",
+    "target": "TELEVİZYON",
+    "taboos": [
+      "Kumanda",
+      "Ekran",
+      "Kanal",
+      "Dizi",
+      "Film"
+    ]
+  },
+  {
+    "id": "28",
+    "target": "KAPI",
+    "taboos": [
+      "Açmak",
+      "Kapatmak",
+      "Anahtar",
+      "Ev",
+      "Zil"
+    ]
+  },
+  {
+    "id": "29",
+    "target": "PENCERE",
+    "taboos": [
+      "Cam",
+      "Açmak",
+      "Kapatmak",
+      "Perde",
+      "Manzara"
+    ]
+  },
+  {
+    "id": "30",
+    "target": "SANDALYE",
+    "taboos": [
+      "Oturmak",
+      "Masa",
+      "Ayak",
+      "Tahta",
+      "Sırt"
+    ]
+  },
+  {
+    "id": "31",
+    "target": "BULUT",
+    "taboos": [
+      "Gökyüzü",
+      "Beyaz",
+      "Yağmur",
+      "Pamuk",
+      "Uçmak"
+    ]
+  },
+  {
+    "id": "32",
+    "target": "KALP",
+    "taboos": [
+      "Aşk",
+      "Atmak",
+      "Kırmızı",
+      "Duygu",
+      "Organ"
+    ]
+  },
+  {
+    "id": "33",
+    "target": "KÖPRÜ",
+    "taboos": [
+      "Nehir",
+      "Geçmek",
+      "Yol",
+      "Tahta",
+      "İstanbul"
+    ]
+  },
+  {
+    "id": "34",
+    "target": "BAYRAK",
+    "taboos": [
+      "Kırmızı",
+      "Dalga",
+      "Ülke",
+      "Sancak",
+      "Bağımsızlık"
+    ]
+  },
+  {
+    "id": "35",
+    "target": "KUMANDA",
+    "taboos": [
+      "Televizyon",
+      "Düğme",
+      "Açmak",
+      "Kapatmak",
+      "Pil"
+    ]
+  },
+  {
+    "id": "36",
+    "target": "KULAKLIK",
+    "taboos": [
+      "Müzik",
+      "Ses",
+      "Kablo",
+      "Dinlemek",
+      "Telefon"
+    ]
+  },
+  {
+    "id": "37",
+    "target": "KİRAZ",
+    "taboos": [
+      "Meyve",
+      "Kırmızı",
+      "Sap",
+      "Tatlı",
+      "Yaz"
+    ]
+  },
+  {
+    "id": "38",
+    "target": "KARTAL",
+    "taboos": [
+      "Kuş",
+      "Uçmak",
+      "Yırtıcı",
+      "Pençe",
+      "Beşiktaş"
+    ]
+  },
+  {
+    "id": "39",
+    "target": "KİLİT",
+    "taboos": [
+      "Anahtar",
+      "Kapı",
+      "Açmak",
+      "Kapatmak",
+      "Güvenlik"
+    ]
+  },
+  {
+    "id": "40",
+    "target": "KAVUN",
+    "taboos": [
+      "Meyve",
+      "Sarı",
+      "Tatlı",
+      "Yaz",
+      "Karpuz"
+    ]
+  },
+  {
+    "id": "41",
+    "target": "KARPUZ",
+    "taboos": [
+      "Meyve",
+      "Kırmızı",
+      "Çekirdek",
+      "Yaz",
+      "Tatlı"
+    ]
+  },
+  {
+    "id": "42",
+    "target": "KÜTÜPHANE",
+    "taboos": [
+      "Kitap",
+      "Sessiz",
+      "Okumak",
+      "Raf",
+      "Bilgi"
+    ]
+  },
+  {
+    "id": "43",
+    "target": "KURŞUN KALEM",
+    "taboos": [
+      "Yazmak",
+      "Silgi",
+      "Uç",
+      "Ders",
+      "Çizmek"
+    ]
+  },
+  {
+    "id": "44",
+    "target": "KÜPE",
+    "taboos": [
+      "Kulak",
+      "Takı",
+      "Altın",
+      "Gümüş",
+      "Aksesuar"
+    ]
+  },
+  {
+    "id": "45",
+    "target": "KÜREK",
+    "taboos": [
+      "Kum",
+      "Deniz",
+      "Kazmak",
+      "Çocuk",
+      "Oyun"
+    ]
+  },
+  {
+    "id": "46",
+    "target": "KÜÇÜK",
+    "taboos": [
+      "Büyük",
+      "Boyut",
+      "Minik",
+      "Çocuk",
+      "Az"
+    ]
+  },
+  {
+    "id": "47",
+    "target": "KÜL",
+    "taboos": [
+      "Ateş",
+      "Sigara",
+      "Yanmak",
+      "Gri",
+      "Kömür"
+    ]
+  },
+  {
+    "id": "48",
+    "target": "KÜLAH",
+    "taboos": [
+      "Dondurma",
+      "Koni",
+      "Tatlı",
+      "Yaz",
+      "Çocuk"
+    ]
+  },
+  {
+    "id": "49",
+    "target": "KÜRE",
+    "taboos": [
+      "Dünya",
+      "Yuvarlak",
+      "Top",
+      "Harita",
+      "Coğrafya"
+    ]
+  },
+  {
+    "id": "50",
+    "target": "KÜTÜK",
+    "taboos": [
+      "Ağaç",
+      "Odun",
+      "Kütle",
+      "Kış",
+      "Sobası"
+    ]
+  },
+  {
+    "id": "51",
+    "target": "KÜÇÜKBAŞ",
+    "taboos": [
+      "Hayvan",
+      "Koyun",
+      "Keçi",
+      "Çiftlik",
+      "Süt"
+    ]
+  },
+  {
+    "id": "52",
+    "target": "BAYKUŞ",
+    "taboos": [
+      "Kuş",
+      "Gece",
+      "Göz",
+      "Uçmak",
+      "Ağaç"
+    ]
+  },
+  {
+    "id": "53",
+    "target": "KİTAPLIK",
+    "taboos": [
+      "Kitap",
+      "Raf",
+      "Oda",
+      "Mobilya",
+      "Düzen"
+    ]
+  },
+  {
+    "id": "54",
+    "target": "ÇORAP",
+    "taboos": [
+      "Ayak",
+      "Giyinmek",
+      "Pamuk",
+      "Çift",
+      "Renkli"
+    ]
+  },
+  {
+    "id": "55",
+    "target": "KAVANOZ",
+    "taboos": [
+      "Cam",
+      "Kapak",
+      "Reçel",
+      "Saklamak",
+      "Mutfak"
+    ]
+  },
+  {
+    "id": "56",
+    "target": "KARANFİL",
+    "taboos": [
+      "Çiçek",
+      "Koklamak",
+      "Baharat",
+      "Kırmızı",
+      "Demet"
+    ]
+  },
+  {
+    "id": "57",
+    "target": "KARDEŞ",
+    "taboos": [
+      "Aile",
+      "Anne",
+      "Baba",
+      "Çocuk",
+      "Küçük"
+    ]
+  },
+  {
+    "id": "58",
+    "target": "KARINCA",
+    "taboos": [
+      "Böcek",
+      "Küçük",
+      "Çalışkan",
+      "Koloni",
+      "Toprak"
+    ]
+  },
+  {
+    "id": "59",
+    "target": "KARİDES",
+    "taboos": [
+      "Deniz",
+      "Kabuklu",
+      "Yemek",
+      "Küçük",
+      "Pembe"
+    ]
+  },
+  {
+    "id": "60",
+    "target": "KARPUZCU",
+    "taboos": [
+      "Meyve",
+      "Satıcı",
+      "Tezgah",
+      "Yaz",
+      "Karpuz"
+    ]
+  },
+  {
+    "id": "61",
+    "target": "KARTON",
+    "taboos": [
+      "Kutu",
+      "Kağıt",
+      "Ambalaj",
+      "Taşıma",
+      "Geri dönüşüm"
+    ]
+  },
+  {
+    "id": "62",
+    "target": "KASABA",
+    "taboos": [
+      "Küçük",
+      "Şehir",
+      "Yerleşim",
+      "Ev",
+      "Nüfus"
+    ]
+  },
+  {
+    "id": "63",
+    "target": "KASAP",
+    "taboos": [
+      "Et",
+      "Dükkan",
+      "Bıçak",
+      "Dana",
+      "Koyun"
+    ]
+  },
+  {
+    "id": "64",
+    "target": "KASET",
+    "taboos": [
+      "Müzik",
+      "Çalmak",
+      "Kayıt",
+      "Teyp",
+      "Şarkı"
+    ]
+  },
+  {
+    "id": "65",
+    "target": "KASIMPAŞA",
+    "taboos": [
+      "İstanbul",
+      "Semt",
+      "Futbol",
+      "Takım",
+      "Lacivert"
+    ]
+  },
+  {
+    "id": "66",
+    "target": "KASNAK",
+    "taboos": [
+      "Dikiş",
+      "El işi",
+      "Yuvarlak",
+      "Çember",
+      "Kumaş"
+    ]
+  },
+  {
+    "id": "67",
+    "target": "KASVET",
+    "taboos": [
+      "Hüzün",
+      "Karanlık",
+      "Hava",
+      "İç sıkıntısı",
+      "Bulutlu"
+    ]
+  },
+  {
+    "id": "68",
+    "target": "KATİP",
+    "taboos": [
+      "Yazmak",
+      "Mahkeme",
+      "Dava",
+      "Kalem",
+      "Masa"
+    ]
+  },
+  {
+    "id": "69",
+    "target": "KAVAK",
+    "taboos": [
+      "Ağaç",
+      "Yaprak",
+      "Uzun",
+      "Rüzgar",
+      "Odun"
+    ]
+  },
+  {
+    "id": "70",
+    "target": "KAVGA",
+    "taboos": [
+      "Dövüş",
+      "Tartışma",
+      "Kavga etmek",
+      "Sinir",
+      "Bağırmak"
+    ]
+  },
+  {
+    "id": "71",
+    "target": "KAVRULMAK",
+    "taboos": [
+      "Sıcak",
+      "Yanmak",
+      "Güneş",
+      "Tava",
+      "Kavurmak"
+    ]
+  },
+  {
+    "id": "72",
+    "target": "KAYIK",
+    "taboos": [
+      "Deniz",
+      "Kürek",
+      "Balıkçı",
+      "Tahta",
+      "Su"
+    ]
+  },
+  {
+    "id": "73",
+    "target": "KAYISI",
+    "taboos": [
+      "Meyve",
+      "Sarı",
+      "Tatlı",
+      "Malatya",
+      "Çekirdek"
+    ]
+  },
+  {
+    "id": "74",
+    "target": "KAYMAK",
+    "taboos": [
+      "Süt",
+      "Tatlı",
+      "Kahvaltı",
+      "Beyaz",
+      "Bal"
+    ]
+  },
+  {
+    "id": "75",
+    "target": "KAYNAK",
+    "taboos": [
+      "Su",
+      "Başlangıç",
+      "Doğa",
+      "Akmak",
+      "Küçük"
+    ]
+  },
+  {
+    "id": "76",
+    "target": "KAYNANA",
+    "taboos": [
+      "Anne",
+      "Evlilik",
+      "Kadın",
+      "Aile",
+      "Gelin"
+    ]
+  },
+  {
+    "id": "77",
+    "target": "KAYTARMAK",
+    "taboos": [
+      "Çalışmak",
+      "Kaçmak",
+      "İş",
+      "Tembel",
+      "Okul"
+    ]
+  },
+  {
+    "id": "78",
+    "target": "KAZAK",
+    "taboos": [
+      "Kış",
+      "Giyinmek",
+      "Yün",
+      "Soğuk",
+      "Kollar"
+    ]
+  },
+  {
+    "id": "79",
+    "target": "KAZAN",
+    "taboos": [
+      "Büyük",
+      "Metal",
+      "Yemek",
+      "Ateş",
+      "Çorba"
+    ]
+  },
+  {
+    "id": "80",
+    "target": "KAZANMAK",
+    "taboos": [
+      "Yarış",
+      "Başarı",
+      "Para",
+      "Oyun",
+      "Çalışmak"
+    ]
+  },
+  {
+    "id": "81",
+    "target": "KAZI",
+    "taboos": [
+      "Arkeoloji",
+      "Toprak",
+      "Bulmak",
+      "Kazmak",
+      "Alan"
+    ]
+  },
+  {
+    "id": "82",
+    "target": "KAZMA",
+    "taboos": [
+      "Alet",
+      "Toprak",
+      "Bahçe",
+      "Kazmak",
+      "Demir"
+    ]
+  },
+  {
+    "id": "83",
+    "target": "KEÇİ",
+    "taboos": [
+      "Hayvan",
+      "Boynuz",
+      "Süt",
+      "Dağ",
+      "Otlamak"
+    ]
+  },
+  {
+    "id": "84",
+    "target": "KEK",
+    "taboos": [
+      "Tatlı",
+      "Fırın",
+      "Çikolata",
+      "Pasta",
+      "Yemek"
+    ]
+  },
+  {
+    "id": "85",
+    "target": "KELİME",
+    "taboos": [
+      "Sözlük",
+      "Harf",
+      "Cümle",
+      "Yazmak",
+      "Anlam"
+    ]
+  },
+  {
+    "id": "86",
+    "target": "KEMAN",
+    "taboos": [
+      "Müzik",
+      "Yay",
+      "Çalmak",
+      "Enstrüman",
+      "Orkestra"
+    ]
+  },
+  {
+    "id": "87",
+    "target": "KEMER",
+    "taboos": [
+      "Pantolon",
+      "Deri",
+      "Takmak",
+      "Bel",
+      "Aksesuar"
+    ]
+  },
+  {
+    "id": "88",
+    "target": "KEMİK",
+    "taboos": [
+      "Vücut",
+      "Kırık",
+      "Beyaz",
+      "İskelet",
+      "Sağlık"
+    ]
+  },
+  {
+    "id": "89",
+    "target": "KENT",
+    "taboos": [
+      "Şehir",
+      "Büyük",
+      "Nüfus",
+      "Yerleşim",
+      "Bina"
+    ]
+  },
+  {
+    "id": "90",
+    "target": "KEREVİZ",
+    "taboos": [
+      "Sebze",
+      "Yemek",
+      "Beyaz",
+      "Kök",
+      "Salata"
+    ]
+  },
+  {
+    "id": "91",
+    "target": "KERTENKELE",
+    "taboos": [
+      "Hayvan",
+      "Kuyruk",
+      "Yeşil",
+      "Duvar",
+      "Sürüngen"
+    ]
+  },
+  {
+    "id": "92",
+    "target": "KESKİN",
+    "taboos": [
+      "Bıçak",
+      "Uç",
+      "Tehlikeli",
+      "Kesmek",
+      "Alet"
+    ]
+  },
+  {
+    "id": "93",
+    "target": "KESMEŞEKER",
+    "taboos": [
+      "Çay",
+      "Tatlı",
+      "Küp",
+      "Beyaz",
+      "Şeker"
+    ]
+  },
+  {
+    "id": "94",
+    "target": "KETEN",
+    "taboos": [
+      "Bitki",
+      "Lif",
+      "Kumaş",
+      "Gömlek",
+      "Doğal"
+    ]
+  },
+  {
+    "id": "95",
+    "target": "KİL",
+    "taboos": [
+      "Toprak",
+      "Çömlek",
+      "Heykel",
+      "Islak",
+      "Sanat"
+    ]
+  },
+  {
+    "id": "96",
+    "target": "KİLİM",
+    "taboos": [
+      "Halı",
+      "Desen",
+      "Yün",
+      "Dokuma",
+      "Ev"
+    ]
+  },
+  {
+    "id": "97",
+    "target": "KİRA",
+    "taboos": [
+      "Ev",
+      "Para",
+      "Ödemek",
+      "Ay",
+      "Sözleşme"
+    ]
+  },
+  {
+    "id": "98",
+    "target": "KİTLE",
+    "taboos": [
+      "Topluluk",
+      "Büyük",
+      "İnsan",
+      "Kitle iletişim",
+      "Kalabalık"
+    ]
+  },
+  {
+    "id": "99",
+    "target": "KİTLESEL",
+    "taboos": [
+      "Büyük",
+      "Toplu",
+      "Olay",
+      "İnsan",
+      "Etki"
+    ]
+  },
+  {
+    "id": "100",
+    "target": "BALON",
+    "taboos": [
+      "Uçmak",
+      "Helyum",
+      "Renkli",
+      "Çocuk",
+      "Patlamak"
+    ]
+  },
+  {
+    "id": "101",
+    "target": "ÇANTA",
+    "taboos": [
+      "Okul",
+      "Taşımak",
+      "Eşya",
+      "Omuz",
+      "Fermuar"
+    ]
+  },
+  {
+    "id": "102",
+    "target": "DURAK",
+    "taboos": [
+      "Otobüs",
+      "Beklemek",
+      "Yolcu",
+      "Şehir",
+      "Tabela"
+    ]
+  },
+  {
+    "id": "103",
+    "target": "EŞEK",
+    "taboos": [
+      "Hayvan",
+      "Kuyruk",
+      "Köy",
+      "Yük",
+      "Anırmak"
+    ]
+  },
+  {
+    "id": "104",
+    "target": "FIRIN",
+    "taboos": [
+      "Ekmek",
+      "Sıcak",
+      "Pişirmek",
+      "Un",
+      "Pastane"
+    ]
+  },
+  {
+    "id": "105",
+    "target": "GÖLGE",
+    "taboos": [
+      "Güneş",
+      "Karanlık",
+      "Ağaç",
+      "Serin",
+      "Yansımak"
+    ]
+  },
+  {
+    "id": "106",
+    "target": "HASTANE",
+    "taboos": [
+      "Doktor",
+      "Hemşire",
+      "Sağlık",
+      "Acil",
+      "Yatak"
+    ]
+  },
+  {
+    "id": "107",
+    "target": "ISIRGAN",
+    "taboos": [
+      "Bitki",
+      "Yanmak",
+      "Yeşil",
+      "Ot",
+      "Diken"
+    ]
+  },
+  {
+    "id": "108",
+    "target": "JİLET",
+    "taboos": [
+      "Tıraş",
+      "Kesmek",
+      "Metal",
+      "Bıçak",
+      "Yüz"
+    ]
+  },
+  {
+    "id": "109",
+    "target": "KABAK",
+    "taboos": [
+      "Sebze",
+      "Yemek",
+      "Tatlı",
+      "Çekirdek",
+      "Sarı"
+    ]
+  },
+  {
+    "id": "110",
+    "target": "LİMON",
+    "taboos": [
+      "Meyve",
+      "Sarı",
+      "Ekşi",
+      "Ağaç",
+      "C vitamini"
+    ]
+  },
+  {
+    "id": "111",
+    "target": "MUM",
+    "taboos": [
+      "Işık",
+      "Alev",
+      "Gece",
+      "Doğum günü",
+      "Erimek"
+    ]
+  },
+  {
+    "id": "112",
+    "target": "NAKİT",
+    "taboos": [
+      "Para",
+      "Ödemek",
+      "Cüzdan",
+      "Kâğıt",
+      "Bozuk"
+    ]
+  },
+  {
+    "id": "113",
+    "target": "OCAK",
+    "taboos": [
+      "Ateş",
+      "Yemek",
+      "Mutfak",
+      "Tencere",
+      "Ay"
+    ]
+  },
+  {
+    "id": "114",
+    "target": "PİLAV",
+    "taboos": [
+      "Pirinç",
+      "Yemek",
+      "Tane",
+      "Tereyağı",
+      "Tavuk"
+    ]
+  },
+  {
+    "id": "115",
+    "target": "RAHAT",
+    "taboos": [
+      "Konfor",
+      "Kolay",
+      "Dinlenmek",
+      "Yatak",
+      "Sessiz"
+    ]
+  },
+  {
+    "id": "116",
+    "target": "SAAT",
+    "taboos": [
+      "Zaman",
+      "Kol",
+      "Duvar",
+      "Akrep",
+      "Dakika"
+    ]
+  },
+  {
+    "id": "117",
+    "target": "ŞAPKA",
+    "taboos": [
+      "Baş",
+      "Giyinmek",
+      "Yaz",
+      "Kış",
+      "Moda"
+    ]
+  },
+  {
+    "id": "118",
+    "target": "TAKIM",
+    "taboos": [
+      "Futbol",
+      "Oyuncu",
+      "Forma",
+      "Maç",
+      "Spor"
+    ]
+  },
+  {
+    "id": "119",
+    "target": "UMUT",
+    "taboos": [
+      "Beklemek",
+      "Gelecek",
+      "İnanç",
+      "Dilek",
+      "Hayal"
+    ]
+  },
+  {
+    "id": "120",
+    "target": "ÜZÜM",
+    "taboos": [
+      "Meyve",
+      "Salkım",
+      "Bağ",
+      "Şarap",
+      "Çekirdek"
+    ]
+  },
+  {
+    "id": "121",
+    "target": "VİTRİN",
+    "taboos": [
+      "Mağaza",
+      "Cam",
+      "Göstermek",
+      "Ürün",
+      "Alışveriş"
+    ]
+  },
+  {
+    "id": "122",
+    "target": "YASTIK",
+    "taboos": [
+      "Yatak",
+      "Kafa",
+      "Uyumak",
+      "Kılıf",
+      "Pamuk"
+    ]
+  },
+  {
+    "id": "123",
+    "target": "ZARF",
+    "taboos": [
+      "Mektup",
+      "Kağıt",
+      "Posta",
+      "Pul",
+      "Açmak"
+    ]
+  },
+  {
+    "id": "124",
+    "target": "AKVARYUM",
+    "taboos": [
+      "Balık",
+      "Su",
+      "Cam",
+      "Dekor",
+      "Temizlik"
+    ]
+  },
+  {
+    "id": "125",
+    "target": "BİLEZİK",
+    "taboos": [
+      "Bilek",
+      "Takı",
+      "Altın",
+      "Gümüş",
+      "Aksesuar"
+    ]
+  },
+  {
+    "id": "126",
+    "target": "ÇEKİÇ",
+    "taboos": [
+      "Alet",
+      "Çivi",
+      "Demir",
+      "Tahta",
+      "Vurmak"
+    ]
+  },
+  {
+    "id": "127",
+    "target": "DİZÜSTÜ",
+    "taboos": [
+      "Bilgisayar",
+      "Taşınabilir",
+      "Klavye",
+      "Ekran",
+      "Laptop"
+    ]
+  },
+  {
+    "id": "128",
+    "target": "EĞLENCE",
+    "taboos": [
+      "Oyun",
+      "Gülmek",
+      "Mutluluk",
+      "Parti",
+      "Arkadaş"
+    ]
+  },
+  {
+    "id": "129",
+    "target": "FİL",
+    "taboos": [
+      "Hayvan",
+      "Büyük",
+      "Hortum",
+      "Kulaç",
+      "Afrika"
+    ]
+  },
+  {
+    "id": "130",
+    "target": "GÜL",
+    "taboos": [
+      "Çiçek",
+      "Koklamak",
+      "Diken",
+      "Kırmızı",
+      "Sevgi"
+    ]
+  },
+  {
+    "id": "131",
+    "target": "HİNDİ",
+    "taboos": [
+      "Hayvan",
+      "Kümes",
+      "Yılbaşı",
+      "Tüy",
+      "Gaga"
+    ]
+  },
+  {
+    "id": "132",
+    "target": "İPLİK",
+    "taboos": [
+      "Dikiş",
+      "Kumaş",
+      "Yün",
+      "Makara",
+      "İğne"
+    ]
+  },
+  {
+    "id": "133",
+    "target": "JANDARMA",
+    "taboos": [
+      "Asker",
+      "Güvenlik",
+      "Köy",
+      "Devriye",
+      "Karakol"
+    ]
+  },
+  {
+    "id": "134",
+    "target": "KABLO",
+    "taboos": [
+      "Elektrik",
+      "Bağlantı",
+      "Tel",
+      "Kablo",
+      "Priz"
+    ]
+  },
+  {
+    "id": "135",
+    "target": "LAVABO",
+    "taboos": [
+      "Banyo",
+      "Su",
+      "Musluk",
+      "Temizlik",
+      "Sabun"
+    ]
+  },
+  {
+    "id": "136",
+    "target": "MARTI",
+    "taboos": [
+      "Kuş",
+      "Deniz",
+      "Uçmak",
+      "İstanbul",
+      "Balık"
+    ]
+  },
+  {
+    "id": "137",
+    "target": "NAR",
+    "taboos": [
+      "Meyve",
+      "Kırmızı",
+      "Çekirdek",
+      "Kış",
+      "Tatlı"
+    ]
+  },
+  {
+    "id": "138",
+    "target": "OJE",
+    "taboos": [
+      "Tırnak",
+      "Kadın",
+      "Renkli",
+      "Sürmek",
+      "Koku"
+    ]
+  },
+  {
+    "id": "139",
+    "target": "RENK",
+    "taboos": [
+      "Kırmızı",
+      "Mavi",
+      "Sarı",
+      "Yeşil",
+      "Görmek"
+    ]
+  },
+  {
+    "id": "140",
+    "target": "SANDAL",
+    "taboos": [
+      "Deniz",
+      "Kürek",
+      "Tahta",
+      "Balıkçı",
+      "Küçük"
+    ]
+  },
+  {
+    "id": "141",
+    "target": "ŞEKER",
+    "taboos": [
+      "Tatlı",
+      "Çay",
+      "Beyaz",
+      "Çocuk",
+      "Bayram"
+    ]
+  },
+  {
+    "id": "142",
+    "target": "TARİH",
+    "taboos": [
+      "Geçmiş",
+      "Olay",
+      "Yıl",
+      "Ders",
+      "Kitap"
+    ]
+  },
+  {
+    "id": "143",
+    "target": "UZAY",
+    "taboos": [
+      "Yıldız",
+      "Gezegen",
+      "Roket",
+      "Astronot",
+      "Karanlık"
+    ]
+  },
+  {
+    "id": "144",
+    "target": "VİZE",
+    "taboos": [
+      "Pasaport",
+      "Yurt dışı",
+      "Seyahat",
+      "Onay",
+      "Ülke"
+    ]
+  },
+  {
+    "id": "145",
+    "target": "YELPAZE",
+    "taboos": [
+      "Sıcak",
+      "El",
+      "Açmak",
+      "Kapatmak",
+      "Rüzgar"
+    ]
+  },
+  {
+    "id": "146",
+    "target": "ZEBRA",
+    "taboos": [
+      "Hayvan",
+      "Çizgili",
+      "Afrika",
+      "At",
+      "Siyah"
+    ]
+  },
+  {
+    "id": "147",
+    "target": "AĞAÇ",
+    "taboos": [
+      "Orman",
+      "Yaprak",
+      "Kök",
+      "Dal",
+      "Odun"
+    ]
+  },
+  {
+    "id": "148",
+    "target": "BİBER",
+    "taboos": [
+      "Sebze",
+      "Acı",
+      "Yeşil",
+      "Kırmızı",
+      "Dolma"
+    ]
+  },
+  {
+    "id": "149",
+    "target": "ÇİLEK",
+    "taboos": [
+      "Meyve",
+      "Kırmızı",
+      "Tatlı",
+      "Yaz",
+      "Tarlası"
+    ]
+  },
+  {
+    "id": "150",
+    "target": "DOMATES",
+    "taboos": [
+      "Sebze",
+      "Kırmızı",
+      "Salata",
+      "Salkım",
+      "Yemek"
+    ]
+  },
+  {
+    "id": "151",
+    "target": "ENGİNAR",
+    "taboos": [
+      "Sebze",
+      "Yemek",
+      "Yeşil",
+      "Bahar",
+      "Kalp"
+    ]
+  },
+  {
+    "id": "152",
+    "target": "FASULYE",
+    "taboos": [
+      "Sebze",
+      "Taze",
+      "Kuru",
+      "Yemek",
+      "Bakla"
+    ]
+  },
+  {
+    "id": "153",
+    "target": "GÖZLÜK",
+    "taboos": [
+      "Cam",
+      "Çerçeve",
+      "Görmek",
+      "Numara",
+      "Lens"
+    ]
+  },
+  {
+    "id": "154",
+    "target": "HALI",
+    "taboos": [
+      "Ev",
+      "Yün",
+      "Desen",
+      "Dokuma",
+      "Zemin"
+    ]
+  },
+  {
+    "id": "155",
+    "target": "IRMAK",
+    "taboos": [
+      "Su",
+      "Akmak",
+      "Nehir",
+      "Doğa",
+      "Kenar"
+    ]
+  },
+  {
+    "id": "156",
+    "target": "JAKARDA",
+    "taboos": [
+      "Kumaş",
+      "Desen",
+      "Doku",
+      "Tekstil",
+      "Makine"
+    ]
+  },
+  {
+    "id": "157",
+    "target": "KABLOSUZ",
+    "taboos": [
+      "İnternet",
+      "Bağlantı",
+      "Modem",
+      "Ağ",
+      "Wi-fi"
+    ]
+  },
+  {
+    "id": "158",
+    "target": "LAVANTA",
+    "taboos": [
+      "Çiçek",
+      "Koklamak",
+      "Mor",
+      "Bahçe",
+      "Yağ"
+    ]
+  },
+  {
+    "id": "159",
+    "target": "MANTAR",
+    "taboos": [
+      "Orman",
+      "Yemek",
+      "Şapka",
+      "Beyaz",
+      "Toprak"
+    ]
+  },
+  {
+    "id": "160",
+    "target": "NANE",
+    "taboos": [
+      "Bitki",
+      "Yeşil",
+      "Koklamak",
+      "Çay",
+      "Baharat"
+    ]
+  },
+  {
+    "id": "161",
+    "target": "PAPATYA",
+    "taboos": [
+      "Çiçek",
+      "Beyaz",
+      "Sarı",
+      "Koklamak",
+      "Yaprak"
+    ]
+  },
+  {
+    "id": "162",
+    "target": "RAKI",
+    "taboos": [
+      "İçki",
+      "Beyaz",
+      "Anason",
+      "Kadeh",
+      "Balık"
+    ]
+  },
+  {
+    "id": "163",
+    "target": "SAÇ",
+    "taboos": [
+      "Baş",
+      "Tarak",
+      "Uzun",
+      "Kısa",
+      "Şampuan"
+    ]
+  },
+  {
+    "id": "164",
+    "target": "TAHTA",
+    "taboos": [
+      "Ağaç",
+      "Masa",
+      "Sandalye",
+      "Yazmak",
+      "Okul"
+    ]
+  },
+  {
+    "id": "165",
+    "target": "UZUN",
+    "taboos": [
+      "Kısa",
+      "Boy",
+      "Mesafe",
+      "Yol",
+      "Bacak"
+    ]
+  },
+  {
+    "id": "166",
+    "target": "VİYOLONSEL",
+    "taboos": [
+      "Müzik",
+      "Yay",
+      "Çalmak",
+      "Enstrüman",
+      "Orkestra"
+    ]
+  },
+  {
+    "id": "167",
+    "target": "YELKEN",
+    "taboos": [
+      "Deniz",
+      "Tekne",
+      "Rüzgar",
+      "Açmak",
+      "Yarış"
+    ]
+  },
+  {
+    "id": "168",
+    "target": "ZİL",
+    "taboos": [
+      "Çalmak",
+      "Kapı",
+      "Ses",
+      "Okul",
+      "Ders"
+    ]
+  },
+  {
+    "id": "169",
+    "target": "AHTAPOT",
+    "taboos": [
+      "Deniz",
+      "Hayvan",
+      "Kollar",
+      "Mürekkep",
+      "Sekiz"
+    ]
+  },
+  {
+    "id": "170",
+    "target": "BULMACA",
+    "taboos": [
+      "Çözmek",
+      "Gazete",
+      "Kare",
+      "Kelime",
+      "Zeka"
+    ]
+  },
+  {
+    "id": "171",
+    "target": "ÇORBA",
+    "taboos": [
+      "Yemek",
+      "Sıcak",
+      "Kaşık",
+      "Tencere",
+      "Sebze"
+    ]
+  },
+  {
+    "id": "172",
+    "target": "DİNOZOR",
+    "taboos": [
+      "Hayvan",
+      "Tarih",
+      "Büyük",
+      "Fosil",
+      "Jurassic"
+    ]
+  },
+  {
+    "id": "173",
+    "target": "ELMAS",
+    "taboos": [
+      "Taş",
+      "Değerli",
+      "Yüzük",
+      "Parlak",
+      "Maden"
+    ]
+  },
+  {
+    "id": "174",
+    "target": "FİNCAN",
+    "taboos": [
+      "Kahve",
+      "Çay",
+      "Porselen",
+      "Kulplu",
+      "Tabak"
+    ]
+  },
+  {
+    "id": "175",
+    "target": "GÜVERCİN",
+    "taboos": [
+      "Kuş",
+      "Uçmak",
+      "Barış",
+      "Mektup",
+      "Kümes"
+    ]
+  },
+  {
+    "id": "176",
+    "target": "HİKAYE",
+    "taboos": [
+      "Yazmak",
+      "Okumak",
+      "Kitap",
+      "Kısa",
+      "Yazar"
+    ]
+  },
+  {
+    "id": "177",
+    "target": "İNCİR",
+    "taboos": [
+      "Meyve",
+      "Ağaç",
+      "Tatlı",
+      "Yaz",
+      "Kuru"
+    ]
+  },
+  {
+    "id": "178",
+    "target": "JAPON",
+    "taboos": [
+      "Ülke",
+      "Asya",
+      "Tokyo",
+      "Sushi",
+      "Dil"
+    ]
+  },
+  {
+    "id": "179",
+    "target": "KABAKÇEKİRDEĞİ",
+    "taboos": [
+      "Atıştırmalık",
+      "Tuzlu",
+      "Kavurmak",
+      "Yeşil",
+      "Çekirdek"
+    ]
+  },
+  {
+    "id": "180",
+    "target": "LİMONATA",
+    "taboos": [
+      "İçecek",
+      "Sarı",
+      "Tatlı",
+      "Soğuk",
+      "Yaz"
+    ]
+  },
+  {
+    "id": "181",
+    "target": "MİKROFON",
+    "taboos": [
+      "Ses",
+      "Konuşmak",
+      "Şarkı",
+      "Kayıt",
+      "Hoparlör"
+    ]
+  },
+  {
+    "id": "182",
+    "target": "NİŞAN",
+    "taboos": [
+      "Düğün",
+      "Yüzük",
+      "Aile",
+      "Evlilik",
+      "Kutlama"
+    ]
+  },
+  {
+    "id": "183",
+    "target": "PİYANO",
+    "taboos": [
+      "Müzik",
+      "Tuş",
+      "Çalmak",
+      "Enstrüman",
+      "Kuyruklu"
+    ]
+  },
+  {
+    "id": "184",
+    "target": "RÜZGAR",
+    "taboos": [
+      "Hava",
+      "Esmek",
+      "Fırtına",
+      "Yel",
+      "Doğa"
+    ]
+  },
+  {
+    "id": "185",
+    "target": "SİMİT",
+    "taboos": [
+      "Susam",
+      "Kahvaltı",
+      "Çay",
+      "Fırın",
+      "Yuvarlak"
+    ]
+  },
+  {
+    "id": "186",
+    "target": "ŞİMŞEK",
+    "taboos": [
+      "Yıldırım",
+      "Gök",
+      "Yağmur",
+      "Hava",
+      "Parlamak"
+    ]
+  },
+  {
+    "id": "187",
+    "target": "TAVŞAN",
+    "taboos": [
+      "Hayvan",
+      "Kulaç",
+      "Beyaz",
+      "Havuç",
+      "Koşmak"
+    ]
+  },
+  {
+    "id": "188",
+    "target": "UZAYLI",
+    "taboos": [
+      "Dünya",
+      "Gezegen",
+      "Yabancı",
+      "Ufo",
+      "Yeşil"
+    ]
+  },
+  {
+    "id": "189",
+    "target": "VİŞNE",
+    "taboos": [
+      "Meyve",
+      "Kırmızı",
+      "Ekşi",
+      "Ağaç",
+      "Tatlı"
+    ]
+  },
+  {
+    "id": "190",
+    "target": "YUMURTA",
+    "taboos": [
+      "Tavuk",
+      "Kahvaltı",
+      "Beyaz",
+      "Sarı",
+      "Kırmak"
+    ]
+  },
+  {
+    "id": "191",
+    "target": "ZÜRAFA",
+    "taboos": [
+      "Hayvan",
+      "Uzun",
+      "Boyun",
+      "Afrika",
+      "Benekli"
+    ]
+  },
+  {
+    "id": "192",
+    "target": "AĞUSTOS",
+    "taboos": [
+      "Ay",
+      "Yaz",
+      "Sıcak",
+      "Tatilde",
+      "Deniz"
+    ]
+  },
+  {
+    "id": "193",
+    "target": "ÇİZGİ",
+    "taboos": [
+      "Düz",
+      "Kalem",
+      "Defter",
+      "Çekmek",
+      "Yazmak"
+    ]
+  },
+  {
+    "id": "194",
+    "target": "DÜNYA",
+    "taboos": [
+      "Gezegen",
+      "Yuvarlak",
+      "Uzay",
+      "İnsan",
+      "Mavi"
+    ]
+  },
+  {
+    "id": "195",
+    "target": "ELBİSE",
+    "taboos": [
+      "Giyinmek",
+      "Kumaş",
+      "Kadın",
+      "Moda",
+      "Düğün"
+    ]
+  },
+  {
+    "id": "196",
+    "target": "FENER",
+    "taboos": [
+      "Işık",
+      "El",
+      "Gece",
+      "Pil",
+      "Aydınlatmak"
+    ]
+  },
+  {
+    "id": "197",
+    "target": "GÖMLEK",
+    "taboos": [
+      "Kumaş",
+      "Düğme",
+      "Giyinmek",
+      "Yaka",
+      "Kol"
+    ]
+  },
+  {
+    "id": "198",
+    "target": "HURMA",
+    "taboos": [
+      "Meyve",
+      "Kahverengi",
+      "Tatlı",
+      "Ramazan",
+      "Ağaç"
+    ]
+  },
+  {
+    "id": "199",
+    "target": "İNEK",
+    "taboos": [
+      "Hayvan",
+      "Süt",
+      "Çiftlik",
+      "Otlamak",
+      "Boynuz"
+    ]
+  },
+  {
+    "id": "200",
+    "target": "JELATİN",
+    "taboos": [
+      "Şeker",
+      "Ambalaj",
+      "Şeffaf",
+      "Tatlı",
+      "Paket"
+    ]
+  },
+  {
+    "id": "201",
+    "target": "MAYMUN",
+    "taboos": [
+      "Hayvan",
+      "Ağaç",
+      "Muz",
+      "Zeki",
+      "Orman"
+    ]
+  },
+  {
+    "id": "202",
+    "target": "PİL",
+    "taboos": [
+      "Elektrik",
+      "Küçük",
+      "Takmak",
+      "Cihaz",
+      "Enerji"
+    ]
+  },
+  {
+    "id": "203",
+    "target": "SÜT",
+    "taboos": [
+      "İnek",
+      "Beyaz",
+      "İçmek",
+      "Çocuk",
+      "Kahvaltı"
+    ]
+  },
+  {
+    "id": "204",
+    "target": "ŞİŞE",
+    "taboos": [
+      "Cam",
+      "Kapak",
+      "İçecek",
+      "Su",
+      "Plastik"
+    ]
+  },
+  {
+    "id": "205",
+    "target": "TAVUK",
+    "taboos": [
+      "Hayvan",
+      "Yumurta",
+      "Çiftlik",
+      "Beyaz",
+      "Kümes"
+    ]
+  },
+  {
+    "id": "206",
+    "target": "UZAK",
+    "taboos": [
+      "Yakın",
+      "Mesafe",
+      "Yol",
+      "Görmek",
+      "Şehir"
+    ]
+  },
+  {
+    "id": "207",
+    "target": "VİDEO",
+    "taboos": [
+      "Görüntü",
+      "Kamera",
+      "Kayıt",
+      "İzlemek",
+      "Film"
+    ]
+  },
+  {
+    "id": "208",
+    "target": "YAZ",
+    "taboos": [
+      "Mevsim",
+      "Sıcak",
+      "Deniz",
+      "Tatil",
+      "Güneş"
+    ]
+  },
+  {
+    "id": "209",
+    "target": "ZİYARET",
+    "taboos": [
+      "Gitmek",
+      "Misafir",
+      "Ev",
+      "Aile",
+      "Görmek"
+    ]
+  },
+  {
+    "id": "210",
+    "target": "AĞRI",
+    "taboos": [
+      "Baş",
+      "Vücut",
+      "Hastalık",
+      "Ağlamak",
+      "Doktor"
+    ]
+  },
+  {
+    "id": "211",
+    "target": "BİLGİ",
+    "taboos": [
+      "Öğrenmek",
+      "Okumak",
+      "Kitap",
+      "Ders",
+      "Deneyim"
+    ]
+  },
+  {
+    "id": "212",
+    "target": "DİŞ",
+    "taboos": [
+      "Ağız",
+      "Fırça",
+      "Beyaz",
+      "Çürük",
+      "Dişçi"
+    ]
+  },
+  {
+    "id": "213",
+    "target": "GÖZ",
+    "taboos": [
+      "Bakmak",
+      "Görmek",
+      "Renk",
+      "Yüz",
+      "Kaş"
+    ]
+  },
+  {
+    "id": "214",
+    "target": "HAVA",
+    "taboos": [
+      "Gökyüzü",
+      "Bulut",
+      "Yağmur",
+      "Rüzgar",
+      "Sıcak"
+    ]
+  },
+  {
+    "id": "215",
+    "target": "HAMBURGER",
+    "taboos": [
+      "Yemek",
+      "Ekmek",
+      "Et",
+      "Fast food",
+      "Marul"
+    ]
+  },
+  {
+    "id": "216",
+    "target": "ISITICI",
+    "taboos": [
+      "Sıcak",
+      "Elektrik",
+      "Kış",
+      "Oda",
+      "Alet"
+    ]
+  },
+  {
+    "id": "217",
+    "target": "JAPONYA",
+    "taboos": [
+      "Ülke",
+      "Asya",
+      "Tokyo",
+      "Sushi",
+      "Dil"
+    ]
+  },
+  {
+    "id": "218",
+    "target": "MAYDANOZ",
+    "taboos": [
+      "Yeşil",
+      "Bitki",
+      "Salata",
+      "Baharat",
+      "Yemek"
+    ]
+  },
+  {
+    "id": "219",
+    "target": "NİSAN",
+    "taboos": [
+      "Ay",
+      "Bahar",
+      "Yağmur",
+      "Çiçek",
+      "İlkbahar"
+    ]
+  },
+  {
+    "id": "220",
+    "target": "PİKNİK",
+    "taboos": [
+      "Yemek",
+      "Açık hava",
+      "Aile",
+      "Doğa",
+      "Sepet"
+    ]
+  },
+  {
+    "id": "221",
+    "target": "SALATA",
+    "taboos": [
+      "Yemek",
+      "Yeşil",
+      "Domates",
+      "Limon",
+      "Zeytinyağı"
+    ]
+  },
+  {
+    "id": "222",
+    "target": "ŞAL",
+    "taboos": [
+      "Kıyafet",
+      "Boyun",
+      "Soğuk",
+      "Kadın",
+      "Renkli"
+    ]
+  },
+  {
+    "id": "223",
+    "target": "TAKSI",
+    "taboos": [
+      "Araba",
+      "Sarı",
+      "Şoför",
+      "Yolcu",
+      "Ücret"
+    ]
+  },
+  {
+    "id": "224",
+    "target": "UMUTSUZ",
+    "taboos": [
+      "Kötü",
+      "Çaresiz",
+      "Beklemek",
+      "Dert",
+      "Yalnız"
+    ]
+  },
+  {
+    "id": "225",
+    "target": "ÜTÜ",
+    "taboos": [
+      "Kıyafet",
+      "Buhar",
+      "Düz",
+      "Elektrik",
+      "Gömlek"
+    ]
+  },
+  {
+    "id": "226",
+    "target": "YELKENLİ",
+    "taboos": [
+      "Tekne",
+      "Deniz",
+      "Rüzgar",
+      "Yarış",
+      "Açık"
+    ]
+  },
+  {
+    "id": "227",
+    "target": "AĞDA",
+    "taboos": [
+      "Kadın",
+      "Tüy",
+      "Cilt",
+      "Ağrı",
+      "Sıcak"
+    ]
+  },
+  {
+    "id": "228",
+    "target": "BİLET",
+    "taboos": [
+      "Otobüs",
+      "Uçak",
+      "Sinema",
+      "Yolculuk",
+      "Numara"
+    ]
+  },
+  {
+    "id": "229",
+    "target": "ÇİMENTO",
+    "taboos": [
+      "İnşaat",
+      "Gri",
+      "Kum",
+      "Su",
+      "Karıştırmak"
+    ]
+  },
+  {
+    "id": "230",
+    "target": "DİKİŞ",
+    "taboos": [
+      "İğne",
+      "İplik",
+      "Kumaş",
+      "Makine",
+      "El işi"
+    ]
+  },
+  {
+    "id": "231",
+    "target": "FIRÇA",
+    "taboos": [
+      "Diş",
+      "Saç",
+      "Temizlik",
+      "Boya",
+      "Sap"
+    ]
+  },
+  {
+    "id": "232",
+    "target": "GÖL",
+    "taboos": [
+      "Su",
+      "Doğa",
+      "Balık",
+      "Kenar",
+      "Yüzmek"
+    ]
+  },
+  {
+    "id": "233",
+    "target": "İĞDE",
+    "taboos": [
+      "Ağaç",
+      "Meyve",
+      "Küçük",
+      "Tatlı",
+      "Kuru"
+    ]
+  },
+  {
+    "id": "234",
+    "target": "JİLETLİ",
+    "taboos": [
+      "Kesmek",
+      "Tıraş",
+      "Tehlikeli",
+      "Metal",
+      "Bıçak"
+    ]
+  },
+  {
+    "id": "235",
+    "target": "LİMONLU",
+    "taboos": [
+      "Tatlı",
+      "Pasta",
+      "Meyve",
+      "Sarı",
+      "Kek"
+    ]
+  },
+  {
+    "id": "236",
+    "target": "NARİN",
+    "taboos": [
+      "Kırılgan",
+      "Zayıf",
+      "İnce",
+      "Kadın",
+      "Çiçek"
+    ]
+  },
+  {
+    "id": "237",
+    "target": "OCAKBAŞI",
+    "taboos": [
+      "Restoran",
+      "Et",
+      "Izgara",
+      "Ateş",
+      "Kebap"
+    ]
+  },
+  {
+    "id": "238",
+    "target": "RANZA",
+    "taboos": [
+      "Yatak",
+      "Üst",
+      "Alt",
+      "Çocuk",
+      "Oda"
+    ]
+  },
+  {
+    "id": "239",
+    "target": "ŞALVAR",
+    "taboos": [
+      "Kıyafet",
+      "Geniş",
+      "Kadın",
+      "Pantolon",
+      "Köy"
+    ]
+  },
+  {
+    "id": "240",
+    "target": "TAKIMELBİSE",
+    "taboos": [
+      "Kıyafet",
+      "Ceket",
+      "Pantolon",
+      "Kravat",
+      "Damat"
+    ]
+  },
+  {
+    "id": "241",
+    "target": "UZUNLUK",
+    "taboos": [
+      "Kısa",
+      "Boy",
+      "Ölçmek",
+      "Metre",
+      "Mesafe"
+    ]
+  },
+  {
+    "id": "242",
+    "target": "VİTAMİN",
+    "taboos": [
+      "Sağlık",
+      "Besin",
+      "Sebze",
+      "Meyve",
+      "Enerji"
+    ]
+  },
+  {
+    "id": "243",
+    "target": "YELDEĞİRMENİ",
+    "taboos": [
+      "Rüzgar",
+      "Enerji",
+      "Hollanda",
+      "Kanat",
+      "Dönmek"
+    ]
+  },
+  {
+    "id": "244",
+    "target": "ZİNCİR",
+    "taboos": [
+      "Demir",
+      "Bağlamak",
+      "Bisiklet",
+      "Kilit",
+      "Uzun"
+    ]
+  },
+  {
+    "id": "245",
+    "target": "AĞIR",
+    "taboos": [
+      "Hafif",
+      "Kilo",
+      "Taşımak",
+      "Yük",
+      "Tartı"
+    ]
+  },
+  {
+    "id": "246",
+    "target": "ÇİZGİROMAN",
+    "taboos": [
+      "Kitap",
+      "Resim",
+      "Hikaye",
+      "Çocuk",
+      "Okumak"
+    ]
+  },
+  {
+    "id": "247",
+    "target": "DİKİLİTAŞ",
+    "taboos": [
+      "Tarih",
+      "Taş",
+      "İstanbul",
+      "Anıt",
+      "Mısır"
+    ]
+  },
+  {
+    "id": "248",
+    "target": "FIRINCI",
+    "taboos": [
+      "Ekmek",
+      "Fırın",
+      "Sabah",
+      "Un",
+      "Çalışmak"
+    ]
+  },
+  {
+    "id": "249",
+    "target": "GÖZLÜKÇÜ",
+    "taboos": [
+      "Gözlük",
+      "Dükkan",
+      "Cam",
+      "Numara",
+      "Satıcı"
+    ]
+  },
+  {
+    "id": "250",
+    "target": "HİÇ",
+    "taboos": [
+      "Yok",
+      "Boş",
+      "Sıfır",
+      "Hiçbir",
+      "Hiçlik"
+    ]
+  },
+  {
+    "id": "251",
+    "target": "İÇECEK",
+    "taboos": [
+      "İçmek",
+      "Soğuk",
+      "Sıcak",
+      "Bardak",
+      "Kola"
+    ]
+  },
+  {
+    "id": "252",
+    "target": "SİMİTÇİ",
+    "taboos": [
+      "Simit",
+      "Satıcı",
+      "Tezgah",
+      "Susam",
+      "Fırın"
+    ]
+  },
+  {
+    "id": "253",
+    "target": "ŞEKERLEME",
+    "taboos": [
+      "Tatlı",
+      "Şeker",
+      "Bayram",
+      "Çocuk",
+      "Dükkan"
+    ]
+  },
+  {
+    "id": "254",
+    "target": "TARİHÇİ",
+    "taboos": [
+      "Tarih",
+      "Kitap",
+      "Araştırmak",
+      "Yazar",
+      "Ders"
+    ]
+  }
+]

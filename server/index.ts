@@ -19,7 +19,7 @@ export function createServer() {
   app.get('/health', (_req, res) => res.json({ ok: true }))
   app.get('/cards/:id', (req, res) => {
     try {
-      const wordsRaw = fs.readFileSync(path.join(process.cwd(), 'server', 'words.en.json'), 'utf-8')
+      const wordsRaw = fs.readFileSync(path.join(process.cwd(), 'server', 'words.tr.json'), 'utf-8')
       const words = JSON.parse(wordsRaw) as Array<{ id: string; target: string; taboos: string[] }>
       const card = words.find(w => w.id === String(req.params.id))
       if (!card) return res.status(404).json({ error: 'Not found' })

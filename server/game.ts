@@ -31,7 +31,7 @@ const roomTimers = new Map<string, NodeJS.Timeout>()
 const roomDecks = new Map<string, string[]>() // roomCode -> remaining card ids
 
 const WORDS: Card[] = JSON.parse(
-  fs.readFileSync(path.join(process.cwd(), 'server', 'words.en.json'), 'utf-8')
+  fs.readFileSync(path.join(process.cwd(), 'server', 'words.tr.json'), 'utf-8')
 )
 
 function shortId(): string {
