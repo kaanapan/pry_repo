@@ -3,6 +3,7 @@ import { Home } from './pages/Home'
 import { Lobby } from './pages/Lobby'
 import { Round } from './pages/Round'
 import { useGameStore } from './store'
+import { GameOver } from './pages/GameOver'
 
 export function App() {
   const status = useGameStore(s => s.state?.status)
@@ -19,21 +20,8 @@ export function App() {
       {page === 'home' && <Home onGoLobby={() => setPage('lobby')} />}
       {page === 'lobby' && <Lobby />}
       {page === 'round' && <Round />}
-      {page === 'ended' && (
-        <div>
-          <h1>Game Over</h1>
-          <ScoreHeader />
-          <button onClick={() => useGameStore.getState().rematch()}>Rematch</button>
-        </div>
-      )}
+      {page === 'ended' && <GameOver />}
     </div>
-  )
-}
-
-function ScoreHeader() {
-  const scores = useGameStore(s => s.state?.scores)
-  return (
-    <div style={{ fontSize: 24, marginBottom: 8 }}>Score A {scores?.A ?? 0} - {scores?.B ?? 0} B</div>
   )
 }
 
