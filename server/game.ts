@@ -22,6 +22,7 @@ interface RoomState {
   round?: RoundState
   // Tracks rotating guesser index per team
   roleIndex?: { A: number; B: number }
+  scoreLimit: number
 }
 
 const rooms = new Map<string, RoomState>()
@@ -136,8 +137,9 @@ function applyResult(io: Server, room: RoomState, kind: 'correct' | 'pass' | 'vi
   if (kind === 'correct') room.scores[team] += 1
   if (kind === 'pass' || kind === 'violation') room.scores[team] -= 1
 
-  // Check win condition
-  if (room.scores.A >= 7 || room.scores.B >= 7) {
+  // Check win condition (dynamic score limit)
+  const limit = room.scoreLimit || 7
+  if (room.scores.A >= limit || room.scores.B >= limit) {
     room.status = 'ended'
     stopTimer(room.code)
     emitState(io, room.code)
@@ -153,7 +155,7 @@ export function createGameServer(io: Server) {
     let joinedCode: string | null = null
     let memberName: string = ''
 
-    socket.on('room:create', ({ name }: { name: string }) => {
+    socket.on('room:create', ({ name, scoreLimit }: { name: string, scoreLimit?: number }) => {
       const code = shortId()
       const room: RoomState = {
         code,
@@ -161,7 +163,8 @@ export function createGameServer(io: Server) {
         members: [],
         scores: { A: 0, B: 0 },
         turnTeam: 'A',
-        roleIndex: { A: Math.floor(Math.random() * 2), B: Math.floor(Math.random() * 2) }
+        roleIndex: { A: Math.floor(Math.random() * 2), B: Math.floor(Math.random() * 2) },
+        scoreLimit: scoreLimit && typeof scoreLimit === 'number' ? scoreLimit : 7
       }
       rooms.set(code, room)
       setupDeckForRoom(code)

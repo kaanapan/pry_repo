@@ -9,18 +9,23 @@ import {
   Paper,
   Stack,
   Divider,
-  Avatar
+  Avatar,
+  FormControl,
+  InputLabel,
+  Select,
+  MenuItem
 } from '@mui/material'
 
 export function Home({ onGoLobby }: { onGoLobby: () => void }) {
   const [name, setName] = useState('')
   const [code, setCode] = useState('')
   const setRoomCode = useGameStore(s => s.setRoomCode)
+  const [scoreLimit, setScoreLimit] = useState(7)
 
   function create() {
     if (!name) return
     useGameStore.getState().setPlayerName(name)
-    socket.emit('room:create', { name })
+    socket.emit('room:create', { name, scoreLimit })
     onGoLobby()
   }
   function join() {
@@ -70,6 +75,19 @@ export function Home({ onGoLobby }: { onGoLobby: () => void }) {
             sx={{ bgcolor: 'white', borderRadius: 1 }}
             inputProps={{ maxLength: 20 }}
           />
+          <FormControl fullWidth sx={{ mb: 1 }}>
+            <InputLabel id="score-limit-label">Kazanan Skor</InputLabel>
+            <Select
+              labelId="score-limit-label"
+              value={scoreLimit}
+              label="Kazanan Skor"
+              onChange={e => setScoreLimit(Number(e.target.value))}
+            >
+              {[5, 7, 10, 15].map(val => (
+                <MenuItem key={val} value={val}>{val}</MenuItem>
+              ))}
+            </Select>
+          </FormControl>
           <Button
             variant="contained"
             color="primary"

@@ -67,6 +67,8 @@ export function Round() {
   const scores = state?.scores ?? { A: 0, B: 0 }
   const team = state?.turnTeam
   const round = state?.round
+  const scoreLimit = state?.scoreLimit ?? 7;
+  const roundDuration = 60;
 
   const isClueGiver = round?.clueGiverId === meId
   const isGuesser = round?.guesserId === meId
@@ -89,6 +91,9 @@ export function Round() {
     <Box minHeight="100vh" display="flex" alignItems="center" justifyContent="center" bgcolor="background.default" px={{ xs: 1, sm: 2, md: 0 }}>
       <Paper elevation={8} sx={{ p: { xs: 2, sm: 4, md: 7 }, width: '100%', maxWidth: 1000, minHeight: 540, borderRadius: 6, background: 'background.paper', boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.15)' }}>
         <Stack spacing={4} alignItems="center">
+          <Typography variant="subtitle1" color="text.secondary" fontWeight={600} sx={{ mt: 1, mb: -2, letterSpacing: 0.5 }}>
+            {scoreLimit} olan kazanır &nbsp;|&nbsp; Tur süresi: {roundDuration} sn
+          </Typography>
           <Box display="flex" alignItems="center" justifyContent="center" gap={2} width="100%" mb={1}>
               <Chip label={<span style={{ fontWeight: 700 }}>Mavi: {scores.A}</span>} color="primary" sx={{ fontSize: 18, height: 40 }} />
             <Chip label={<span style={{ fontWeight: 700 }}>Kırmızı: {scores.B}</span>} color="secondary" sx={{ fontSize: 18, height: 40 }} />
