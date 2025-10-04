@@ -21,11 +21,12 @@ export function Home({ onGoLobby }: { onGoLobby: () => void }) {
   const [code, setCode] = useState('')
   const setRoomCode = useGameStore(s => s.setRoomCode)
   const [scoreLimit, setScoreLimit] = useState(7)
+  const [roundDuration, setRoundDuration] = useState(60)
 
   function create() {
     if (!name) return
     useGameStore.getState().setPlayerName(name)
-    socket.emit('room:create', { name, scoreLimit })
+    socket.emit('room:create', { name, scoreLimit, roundDuration })
     onGoLobby()
   }
   function join() {
@@ -84,6 +85,19 @@ export function Home({ onGoLobby }: { onGoLobby: () => void }) {
               onChange={e => setScoreLimit(Number(e.target.value))}
             >
               {[5, 7, 10, 15].map(val => (
+                <MenuItem key={val} value={val}>{val}</MenuItem>
+              ))}
+            </Select>
+          </FormControl>
+          <FormControl fullWidth sx={{ mb: 1 }}>
+            <InputLabel id="round-duration-label">Süre (sn)</InputLabel>
+            <Select
+              labelId="round-duration-label"
+              value={roundDuration}
+              label="Süre (sn)"
+              onChange={e => setRoundDuration(Number(e.target.value))}
+            >
+              {[30, 45, 60, 75, 90].map(val => (
                 <MenuItem key={val} value={val}>{val}</MenuItem>
               ))}
             </Select>

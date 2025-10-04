@@ -22,7 +22,7 @@ export function GameOver() {
   const teamB = state?.members?.filter(m => m.team === 'B') ?? [];
   return (
     <Box minHeight="100vh" display="flex" alignItems="center" justifyContent="center" bgcolor="background.default" px={{ xs: 1, sm: 2, md: 0 }}>
-      <Paper elevation={8} sx={{ p: { xs: 2, sm: 4, md: 7 }, width: '100%', maxWidth: 500, minHeight: 340, borderRadius: 6, background: 'background.paper', boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.15)' }}>
+      <Paper elevation={8} sx={{ p: { xs: 2, sm: 4, md: 7 }, width: '100%', maxWidth: 700, minHeight: 340, borderRadius: 6, background: 'background.paper', boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.15)' }}>
         <Stack spacing={4} alignItems="center" justifyContent="center">
           <EmojiEventsIcon sx={{ fontSize: 60, color: theme.palette.warning.main, mb: 1 }} />
           <Typography variant="h3" fontWeight={800} color="primary" textAlign="center" gutterBottom>

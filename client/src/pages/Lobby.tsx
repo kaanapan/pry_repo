@@ -27,6 +27,7 @@ export function Lobby() {
   const allReady = !!state && !!state.members && state.members.length > 0 && state.members.every(m => m.isReady);
   const is2v2 = teamA.length === 2 && teamB.length === 2;
   const scoreLimit = state?.scoreLimit ?? 7;
+  const roundDuration = state?.roundDuration ?? 60;
 
   function setTeam(team: 'A' | 'B') {
     socket.emit('room:setTeam', { team })
@@ -43,7 +44,7 @@ export function Lobby() {
       <Paper elevation={8} sx={{ p: { xs: 2, sm: 4, md: 7 }, width: '100%', maxWidth: 800, minHeight: 540, borderRadius: 6, background: 'background.paper', boxShadow: '0 8px 32px 0 rgba(31, 38, 135, 0.15)' }}>
         <Stack spacing={4} alignItems="center">
           <Typography variant="subtitle1" color="text.secondary" fontWeight={600} sx={{ mt: 1, mb: -2, letterSpacing: 0.5 }}>
-            {scoreLimit} olan kazanır &nbsp;|&nbsp; Tur süresi: 60 sn
+            {scoreLimit} olan kazanır &nbsp;|&nbsp; Tur süresi: {roundDuration} sn
           </Typography>
           <Box display="flex" alignItems="center" justifyContent="center" gap={2} width="100%" mb={1}>
         

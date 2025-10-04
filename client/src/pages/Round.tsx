@@ -68,7 +68,7 @@ export function Round() {
   const team = state?.turnTeam
   const round = state?.round
   const scoreLimit = state?.scoreLimit ?? 7;
-  const roundDuration = 60;
+  const roundDuration = state?.roundDuration ?? 60;
 
   const isClueGiver = round?.clueGiverId === meId
   const isGuesser = round?.guesserId === meId

@@ -12,6 +12,7 @@ interface RoomState {
   scores: { A: number; B: number }
   turnTeam: Team
   round?: { clueGiverId: string; guesserId: string; cardId: string; endsAt: number }
+  roundDuration: number // saniye cinsinden
 }
 
 interface Store {
@@ -72,7 +73,7 @@ export const useGameStore = create<Store>((set, get) => {
   })
 
   return {
-    meId: socket.id,
+    meId: socket.id || '',
     roomCode: null,
     playerName: '',
     state: null,

@@ -23,6 +23,7 @@ interface RoomState {
   // Tracks rotating guesser index per team
   roleIndex?: { A: number; B: number }
   scoreLimit: number
+  roundDuration: number // saniye cinsinden
 }
 
 const rooms = new Map<string, RoomState>()
@@ -88,7 +89,9 @@ function startRound(io: Server, room: RoomState) {
   room.status = 'live'
   const card = drawCard(room.code)
   const roles = autoAssignRoles(room)
-  const endsAt = Date.now() + 60000
+  // roundDuration saniye cinsinden, ms'e çevir
+  const durationMs = (room.roundDuration || 60) * 1000;
+  const endsAt = Date.now() + durationMs;
   room.round = { clueGiverId: roles.clueGiverId, guesserId: roles.guesserId, cardId: card.id, endsAt }
   emitState(io, room.code)
 
@@ -169,7 +172,7 @@ export function createGameServer(io: Server) {
       emitState(io, joinedCode!);
     });
 
-    socket.on('room:create', ({ name, scoreLimit }: { name: string, scoreLimit?: number }) => {
+    socket.on('room:create', ({ name, scoreLimit, roundDuration }: { name: string, scoreLimit?: number, roundDuration?: number }) => {
       const code = shortId()
       const room: RoomState = {
         code,
@@ -178,7 +181,8 @@ export function createGameServer(io: Server) {
         scores: { A: 0, B: 0 },
         turnTeam: 'A',
         roleIndex: { A: Math.floor(Math.random() * 2), B: Math.floor(Math.random() * 2) },
-        scoreLimit: scoreLimit && typeof scoreLimit === 'number' ? scoreLimit : 7
+        scoreLimit: scoreLimit && typeof scoreLimit === 'number' ? scoreLimit : 7,
+        roundDuration: roundDuration && typeof roundDuration === 'number' ? roundDuration : 60
       }
       rooms.set(code, room)
       setupDeckForRoom(code)
